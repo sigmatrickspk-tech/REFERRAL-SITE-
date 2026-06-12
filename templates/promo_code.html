@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promo Code</title>
+</head>
+<body>
+    <h1>Promo Code</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.code.label }} {{ form.code() }}
+        {{ form.submit() }}
+    </form>
+</body>
+</html>
