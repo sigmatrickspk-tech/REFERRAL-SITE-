@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Referral</title>
+</head>
+<body>
+    <h1>Referral</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.referral_link.label }} {{ form.referral_link() }}
+        {{ form.referral_type.label }} {{ form.referral_type() }}
+        {{ form.submit() }}
+    </form>
+</body>
+</html>
