@@ -1,0 +1,7 @@
+Flask==2.0.1
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==0.14.3
+WTForms==2.3.3
+python-telegram-bot==13.7
+pytesseract==0.3.8
+Pillow==8.2.0
